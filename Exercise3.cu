@@ -78,7 +78,7 @@ int main(void){
 	printf("\n\nMatriz c:\n");
 	for (int i=0; i<10; i++){
         for (int j=0; j<10; j++){
-            printf("%.2f",C_h[i*ncol+j]);
+            printf("%.2f ",C_h[i*ncol+j]);
         }
         printf("\n");
     }
